@@ -3,6 +3,8 @@ import { data } from "../src/data/fma-data";
 import { CharacterTableRow } from "./components/CharacterTableRow";
 import { CharacterCard } from "./components/CharacterCard";
 
+data.sort((a,b) => b.votes - a.votes);
+
 function App() {
   return (
     <>
