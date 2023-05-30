@@ -43,7 +43,8 @@ export const data = [
     nickName: "Greed",
     votes: 45,
     skillset: ["Skin Hardening", "Homunculii"],
-    imageUrl: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/greed-fullmetal-alchemist.jpg",
+    imageUrl:
+      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/greed-fullmetal-alchemist.jpg",
     background:
       "Greed is one of the seven deadly sins Homunculii. He's the most 'on our side' of all of them.",
   },
@@ -53,7 +54,7 @@ export const data = [
     skillset: ["Being Adorable", "Combining..."],
     votes: 80,
     imageUrl:
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9dK-tXCnVxbSeSJuCKmiX0zUbnCEV1ss54DeOYgXUHSE0WB23TAUD4a3itwFbzJ9fkg&usqp=CAU",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9dK-tXCnVxbSeSJuCKmiX0zUbnCEV1ss54DeOYgXUHSE0WB23TAUD4a3itwFbzJ9fkg&usqp=CAU",
     background:
       "Nina is an adorable little girl! If you've watched FMA you know...",
   },
@@ -84,7 +85,7 @@ export const data = [
     background:
       "Dr. Marcoh did some F**ked up S**t in the war on ishval, but his redemption arc is strong",
     imageUrl:
-    "https://m.media-amazon.com/images/M/MV5BYjljMjEzZmUtMjE2My00NWY1LTljMzAtYWNjOTI5Yzk5NmZjXkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_FMjpg_UX1000_.jpg",
+      "https://m.media-amazon.com/images/M/MV5BYjljMjEzZmUtMjE2My00NWY1LTljMzAtYWNjOTI5Yzk5NmZjXkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_FMjpg_UX1000_.jpg",
   },
   {
     name: "Winrey Rockbell",
@@ -94,6 +95,6 @@ export const data = [
     background:
       "Winrey is Edward and Al's best friend, and it's a good thing because her specialty is making the best automail out there",
     imageUrl:
-    "https://s3.amazonaws.com/comicgeeks/characters/avatars/36066.jpg?t=1668454278",
+      "https://s3.amazonaws.com/comicgeeks/characters/avatars/36066.jpg?t=1668454278",
   },
 ];
