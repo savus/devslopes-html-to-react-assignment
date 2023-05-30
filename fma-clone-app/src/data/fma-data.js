@@ -1,13 +1,13 @@
-type Character = {
-  name: string;
-  skillset: string[];
-  votes: number;
-  imageUrl: string;
-  background: string;
-  nickName: null | string;
-};
+// type Character = {
+//   name: string;
+//   skillset: string[];
+//   votes: number;
+//   imageUrl: string;
+//   background: string;
+//   nickName: null | string;
+// };
 
-export const data: Character[] = [
+export const data = [
   {
     name: "Alex Louis Armstrong",
     nickName: "Major Armstrong",
@@ -26,7 +26,7 @@ export const data: Character[] = [
     background:
       "Alphonse is a walking suit of armor on a quest to find his real body",
     imageUrl:
-      "https://static.wikia.nocookie.net/universe-of-smash-bros-lawl/images/1/19/Alphonse_Elric_Fullmetal_Alchemist.png/revision/latest?cb=20201121115928",
+      "https://upload.wikimedia.org/wikipedia/en/7/7c/AlphonseElricArakawa.jpg",
   },
   {
     name: "Edward Elrich",
@@ -43,7 +43,7 @@ export const data: Character[] = [
     nickName: "Greed",
     votes: 45,
     skillset: ["Skin Hardening", "Homunculii"],
-    imageUrl: "https://static.wikia.nocookie.net/villains/images/f/fd/20111222135943%21Greed.png/revision/latest?cb=20140901212536",
+    imageUrl: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/08/greed-fullmetal-alchemist.jpg",
     background:
       "Greed is one of the seven deadly sins Homunculii. He's the most 'on our side' of all of them.",
   },
@@ -53,7 +53,7 @@ export const data: Character[] = [
     skillset: ["Being Adorable", "Combining..."],
     votes: 80,
     imageUrl:
-      "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/08/fullmetal-alchemist-nina-tucker.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST9dK-tXCnVxbSeSJuCKmiX0zUbnCEV1ss54DeOYgXUHSE0WB23TAUD4a3itwFbzJ9fkg&usqp=CAU",
     background:
       "Nina is an adorable little girl! If you've watched FMA you know...",
   },
@@ -65,7 +65,7 @@ export const data: Character[] = [
     background:
       "Hawkeye is Colonel Mustang's loyal assistant, and one of the strongest non-alchemist characters in the show",
     imageUrl:
-      "https://static.wikia.nocookie.net/fma/images/2/26/Riza-profile.png/revision/latest?cb=20200710231139",
+      "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8171ae7d-9e3c-4aeb-b277-2a8308b0262a/d87573o-e22eb88b-1c20-449c-9093-1e4fba7856f3.png/v1/fill/w_622,h_350,strp/riza_hawkeye___minimalist_vector_wallpaper_by_rebeccaangoo_d87573o-350t.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvODE3MWFlN2QtOWUzYy00YWViLWIyNzctMmE4MzA4YjAyNjJhXC9kODc1NzNvLWUyMmViODhiLTFjMjAtNDQ5Yy05MDkzLTFlNGZiYTc4NTZmMy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.InNg0JonI4tCcxkN-u8E2z7Z4aqvLLxClcDwujxbTJs",
   },
   {
     name: "Solf J. Kimblee",
@@ -74,7 +74,7 @@ export const data: Character[] = [
     skillset: ["Being a piece of sh*t", "Alchemy"],
     background: "Kimblee suckkkkkssss, seriously he's not very nice",
     imageUrl:
-      "https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/9/94/SolfJKimbleeEp37.png/revision/latest/scale-to-width-down/290?cb=20121003101919",
+      "https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2022/03/full-metal-alchemist-mobile-char-2.jpg?resize=640%2C457&ssl=1",
   },
   {
     name: "Tim Marcoh",
@@ -84,7 +84,7 @@ export const data: Character[] = [
     background:
       "Dr. Marcoh did some F**ked up S**t in the war on ishval, but his redemption arc is strong",
     imageUrl:
-      "https://static.wikia.nocookie.net/fma/images/8/88/Marcoh.png/revision/latest?cb=20130321233603",
+    "https://m.media-amazon.com/images/M/MV5BYjljMjEzZmUtMjE2My00NWY1LTljMzAtYWNjOTI5Yzk5NmZjXkEyXkFqcGdeQXVyNjMxNzQ2NTQ@._V1_FMjpg_UX1000_.jpg",
   },
   {
     name: "Winrey Rockbell",
@@ -94,6 +94,6 @@ export const data: Character[] = [
     background:
       "Winrey is Edward and Al's best friend, and it's a good thing because her specialty is making the best automail out there",
     imageUrl:
-      "https://static.wikia.nocookie.net/thejusticeworld/images/8/85/800-by-600-366874-20090424144049.jpg/revision/latest?cb=20120415225041",
+    "https://s3.amazonaws.com/comicgeeks/characters/avatars/36066.jpg?t=1668454278",
   },
 ];
