@@ -1,9 +1,9 @@
 import "./App.css";
 import { data } from "../src/data/fma-data";
-import { CharacterTableRow } from "./components/CharacterTableRow";
 import { CharacterCard } from "./components/CharacterCard";
+import { CharacterTable } from "./components/CharacterTable";
 
-data.sort((a,b) => b.votes - a.votes);
+const sortedData = [...data].sort((a, b) => b.votes - a.votes);
 
 function App() {
   return (
@@ -18,25 +18,7 @@ function App() {
       </header>
       <section id="character-ratings">
         <h4>Top Characters</h4>
-        <table>
-          <tr>
-            <th>Name</th>
-            <th>Skillset</th>
-            <th>Votes</th>
-          </tr>
-          {data.map((item, itemIndex) => {
-            const adjustedIndex = itemIndex + 1;
-            const isEven = adjustedIndex % 2 === 0;
-            if (adjustedIndex <= 5)
-              return (
-                <CharacterTableRow
-                  item={item}
-                  isEven={isEven}
-                  key={item.name}
-                />
-              );
-          })}
-        </table>
+        <CharacterTable data={sortedData} />
       </section>
       <section id="character-cards">
         {data.map((item) => {
