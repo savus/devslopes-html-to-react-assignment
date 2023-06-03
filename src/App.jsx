@@ -1,9 +1,7 @@
 import "./App.css";
 import { data } from "../src/data/fma-data";
-import { CharacterCard } from "./components/CharacterCard";
 import { CharacterTable } from "./components/CharacterTable";
-
-const sortedData = [...data].sort((a, b) => b.votes - a.votes);
+import { CharacterSection } from "./components/CharacterSection";
 
 function App() {
   return (
@@ -18,21 +16,9 @@ function App() {
       </header>
       <section id="character-ratings">
         <h4>Top Characters</h4>
-        <CharacterTable data={sortedData} />
+        <CharacterTable />
       </section>
-      <section id="character-cards">
-        {data.map((item) => {
-          return (
-            <CharacterCard
-              name={item.name}
-              nickName={item.nickName}
-              imageUrl={item.imageUrl}
-              background={item.background}
-              key={item.name}
-            />
-          );
-        })}
-      </section>
+      <CharacterSection data={data} />
     </>
   );
 }
